@@ -1,1 +1,1 @@
-web: gunicorn wayfarer.wsgi --log-file -
+web: gunicorn wayfarer.app:app --log-file -
